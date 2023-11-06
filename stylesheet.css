@@ -1,12 +1,13 @@
-/*!SECTION Body Reset */
+/*SECTION - Body Reset*/
 body {
     box-sizing: border-box;
     overflow: hidden;
     padding: 0;
     margin: 0;
 }
+/*!SECTION - Body Reset*/
 
-/*!SECTION Font Styling */
+/*SECTION - Font Styling*/
 h1,
 h2,
 h3,
@@ -45,3 +46,4 @@ h5 {
 h6 {
     font-size: 16;
 }
+/*!SECTION - Font Styling*/
