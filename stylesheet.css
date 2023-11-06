@@ -1,0 +1,47 @@
+/*!SECTION Body Reset */
+body {
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+/*!SECTION Font Styling */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Belanosima", sans-serif;
+    font-weight: normal;
+}
+
+p,
+a {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 60;
+}
+
+h2 {
+    font-size: 48;
+}
+
+h3 {
+    font-size: 36;
+}
+
+h4 {
+    font-size: 24;
+}
+
+h5 {
+    font-size: 18;
+}
+
+h6 {
+    font-size: 16;
+}
