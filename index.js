@@ -1,5 +1,5 @@
 function activate() {
     //!SECTION
 
-    
+    //!SECTION
 }
