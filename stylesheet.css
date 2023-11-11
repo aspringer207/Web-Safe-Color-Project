@@ -1,3 +1,8 @@
+/*SECTION - helper*/
+
+/*{border: 2px solid yellow;}*/
+
+/*!SECTION - helper*/
 /*SECTION - Variables*/
 :root { --rainbow: linear-gradient(
     90deg,
@@ -16,8 +21,10 @@
 /*!SECTION - Variables*/
 /*SECTION - Body Reset*/
 body {
+    width: 100%;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     padding: 0;
     margin: 0;
 }
@@ -35,6 +42,7 @@ h6 {
     font-weight: normal;
 }
 
+sub,
 p,
 a {
     font-family: "Poppins", sans-serif;
@@ -43,39 +51,36 @@ a {
 
 h1 {
     font-size: 60pt;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 h2 {
     font-size: 48pt;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 0.5rem;
+
 }
 
 h3 {
     font-size: 36pt;
-    margin: 0;
-    padding: 0;
+
 }
 
 h4 {
     font-size: 24pt;
-    margin: 0;
-    padding: 0;
+
 }
 
 h5 {
     font-size: 18pt;
-    margin: 0;
-    padding: 0;
+
 }
 
 h6 {
     font-size: 16pt;
-    margin: 0;
-    padding: 0;
+
 }
+sub {font-size: 18pt; margin-top: 5px;}
 a {
     font-size: 16pt;
     font-weight: normal;
@@ -99,42 +104,54 @@ align-content: flex-end;
 }
 header h1{
     font-size: 60pt;
-    position: relative;
-    bottom: 0;
-}
-.nav-box {
-    display: flex;
-    flex direction: row;
-    flex-wrap: wrap;
     box-sizing: border-box;
     overflow: hidden;
     padding: 0;
     margin: 0;
-    width: 50%;
-    height: 100%;
-    position: relative;
-    bottom: 0;
-    right: 0;
 }
 
 /*SECTION - Nav*/
-header .nav-box nav {
+
+header .container {
+    height:100%;
     display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+header .page-nav {
+    min-width: 50%;
+}
+
+nav {
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
     height: 40px;
-    width: 100%;
     flex-direction: row;
-    justify-content: space-between;
-    align-content: flex-end;
+    flex-wrap: wrap;
     background-color: #303030;
     padding: 0;
     margin: 0;
-    flex-shrink: 2;
+    border: 2px solid whitesmoke;
 }
-header .nav-box nav a {
+header nav a {
     color: whitesmoke;
     text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
     width: 20%;
+    height: 100%;
     border: 2px solid whitesmoke;
+    padding: 0 15px;
+    margin: 0;
 }
 /*!SECTION - Nav*/
 /*!SECTION - Header*/
+/*SECTION - Main*/
+/*!SECTION - Main*/
