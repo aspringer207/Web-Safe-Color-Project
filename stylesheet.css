@@ -6,16 +6,15 @@
 /*SECTION - Variables*/
 :root { --rainbow: linear-gradient(
     90deg,
-    lightgray 0%,
-    lightgray 65.75%,
-    magenta 66%,
+    #101010 0%,
+    #101010 45%,
+    magenta 50%,
     red,
     yellow,
     lime,
     cyan,
-    blue 90%,
-    lightgray 90.25%, 
-    lightgray)
+    blue,
+    #101010);
 
 }
 /*!SECTION - Variables*/
@@ -27,7 +26,10 @@ body {
     overflow-y: scroll;
     padding: 0;
     margin: 0;
+    background-color: #151515;
 }
+section {margin:25px;}
+section.main-section:first-of-type {margin-top: 150px;}
 /*!SECTION - Body Reset*/
 /*SECTION - Global*/
 /*SECTION - Font Styling*/
@@ -40,12 +42,14 @@ h5,
 h6 {
     font-family: "Belanosima", sans-serif;
     font-weight: normal;
+    color: whitesmoke;
 }
 
 sub,
 p,
 a {
     font-family: "Poppins", sans-serif;
+    color: white;
 }
 /*!SECTION = Font Family*/
 
@@ -101,6 +105,7 @@ display: flex;
 flex-flow: row wrap;
 justify-content: space-between;
 align-content: flex-end;
+border-bottom: 3px solid #202020;
 }
 header h1{
     font-size: 60pt;
@@ -109,8 +114,6 @@ header h1{
     padding: 0;
     margin: 0;
 }
-
-/*SECTION - Nav*/
 
 header .container {
     height:100%;
@@ -127,6 +130,9 @@ header .container {
 header .page-nav {
     min-width: 50%;
 }
+/*SECTION - Nav*/
+
+
 
 nav {
     display: flex;
@@ -154,4 +160,160 @@ header nav a {
 /*!SECTION - Nav*/
 /*!SECTION - Header*/
 /*SECTION - Main*/
-/*!SECTION - Main*/
+/*SECTION - Home*/
+html {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border: 2px solid gray;
+    display: block;
+    text-align: center;
+}
+
+.huebox {
+    border: 1px outset rgba(120, 120, 120, .25);
+    height: 75px;
+    text-align: center;
+    width: 75px;
+    margin: 7.5px;
+    margin-bottom:2.5px;
+    color: white;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    -ms-border-radius:2px;
+    -o-border-radius:2px;
+    border-radius:2px;
+}
+.frame {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,25%);
+    border: 2px  outset rgba(120, 120, 120, 25%);
+    text-align: center;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+    border-radius:3px;
+    background-color: #fff;
+    
+}
+.frame p{
+    color: #707070;
+    display: inline-block;
+    font-size: 14pt;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+.label {
+    font-size: 18pt;
+    max-height: 33%;
+    width: 375px;
+    align-self: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; overflow:hidden;
+    border: 1px outset rgba(0,0,0,25%);
+    border-top: 0;
+}
+.label p {margin: 0; color: #161616}
+section .palette {
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+    justify-content: space-around;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 5px rgba(0,0,0,25%);
+    text-align: center;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+    border-radius:3px;
+    background-color: #FFF;
+}
+section .pwrap {
+    display: flex;
+    width: -moz-fit-content;
+    width: fit-content;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.pbox {
+    box-sizing: border-box;
+    border: 2px outset rgba(120, 120, 120, .25);
+    height: 75px;
+    width: 75px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    -ms-border-radius:2px;
+    -o-border-radius:2px;
+    border-radius:2px;
+}
+
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+.not-sr-only {position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;}
+/*!SECTION - Home*/
+/*!SECTION - Main*/    
+.red{color: red;}
+.green {color: lime;}
+.blue {color: blue;}
+.cyan {color: cyan;}
+.magenta {color: magenta;}
+.yellow {color: yellow;}

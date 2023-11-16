@@ -1,0 +1,998 @@
+.aaa {
+    background-color: #000000;
+}
+
+.aab {
+    background-color: #00003F;
+}
+
+.aac {
+    background-color: #00007F;
+}
+
+.aad {
+    background-color: #0000bf;
+}
+
+.aae {
+    background-color: #0000FF;
+}
+
+.aba {
+    background-color: #003F00;
+}
+
+.abb {
+    background-color: #003F3F;
+}
+
+.abc {
+    background-color: #003F7F;
+}
+
+.abd {
+    background-color: #003Fbf;
+}
+
+.abe {
+    background-color: #003FFF;
+}
+
+.aca {
+    background-color: #007F00;
+}
+
+.acb {
+    background-color: #007F3F;
+}
+
+.acc {
+    background-color: #007F7F;
+}
+
+.acd {
+    background-color: #007Fbf;
+}
+
+.ace {
+    background-color: #007FFF;
+}
+
+.ada {
+    background-color: #00bf00;
+}
+
+.adb {
+    background-color: #00bf3F;
+}
+
+.adc {
+    background-color: #00bf7F;
+}
+
+.add {
+    background-color: #00bfbf;
+}
+
+.ade {
+    background-color: #00bfFF;
+}
+
+.aea {
+    background-color: #00FF00;
+}
+
+.aeb {
+    background-color: #00FF3F;
+}
+
+.aec {
+    background-color: #00FF7F;
+}
+
+.aed {
+    background-color: #00FFbf;
+}
+
+.aee {
+    background-color: #00FFFF;
+}
+
+.baa {
+    background-color: #3F0000;
+}
+
+.bab {
+    background-color: #3F003F;
+}
+
+.bac {
+    background-color: #3F007F;
+}
+
+.bad {
+    background-color: #3F00bf;
+}
+
+.bae {
+    background-color: #3F00FF;
+}
+
+.bba {
+    background-color: #3F3F00;
+}
+
+.bbb {
+    background-color: #3F3F3F;
+}
+
+.bbc {
+    background-color: #3F3F7F;
+}
+
+.bbd {
+    background-color: #3F3Fbf;
+}
+
+.bbe {
+    background-color: #3F3FFF;
+}
+
+.bca {
+    background-color: #3F7F00;
+}
+
+.bcb {
+    background-color: #3F7F3F;
+}
+
+.bcc {
+    background-color: #3F7F7F;
+}
+
+.bcd {
+    background-color: #3F7Fbf;
+}
+
+.bce {
+    background-color: #3F7FFF;
+}
+
+.bda {
+    background-color: #3fbf00;
+}
+
+.bdb {
+    background-color: #3fbf3F;
+}
+
+.bdc {
+    background-color: #3fbf7F;
+}
+
+.bdd {
+    background-color: #3fbfbf;
+}
+
+.bde {
+    background-color: #3fbfFF;
+}
+
+.bea {
+    background-color: #3FFF00;
+}
+
+.beb {
+    background-color: #3FFF3F;
+}
+
+.bec {
+    background-color: #3FFF7F;
+}
+
+.bed {
+    background-color: #3FFFbf;
+}
+
+.bee {
+    background-color: #3FFFFF;
+}
+
+.caa {
+    background-color: #7F0000;
+}
+
+.cab {
+    background-color: #7F003F;
+}
+
+.cac {
+    background-color: #7F007F;
+}
+
+.cad {
+    background-color: #7F00bf;
+}
+
+.cae {
+    background-color: #7F00FF;
+}
+
+.cba {
+    background-color: #7F3F00;
+}
+
+.cbb {
+    background-color: #7F3F3F;
+}
+
+.cbc {
+    background-color: #7F3F7F;
+}
+
+.cbd {
+    background-color: #7F3Fbf;
+}
+
+.cbe {
+    background-color: #7F3FFF;
+}
+
+.cca {
+    background-color: #7F7F00;
+}
+
+.ccb {
+    background-color: #7F7F3F;
+}
+
+.ccc {
+    background-color: #7F7F7F;
+}
+
+.ccd {
+    background-color: #7F7Fbf;
+}
+
+.cce {
+    background-color: #7F7FFF;
+}
+
+.cda {
+    background-color: #7fbf00;
+}
+
+.cdb {
+    background-color: #7fbf3F;
+}
+
+.cdc {
+    background-color: #7fbf7F;
+}
+
+.cdd {
+    background-color: #7fbfbf;
+}
+
+.cde {
+    background-color: #7fbfFF;
+}
+
+.cea {
+    background-color: #7FFF00;
+}
+
+.ceb {
+    background-color: #7FFF3F;
+}
+
+.cec {
+    background-color: #7FFF7F;
+}
+
+.ced {
+    background-color: #7FFFbf;
+}
+
+.cee {
+    background-color: #7FFFFF;
+}
+
+.daa {
+    background-color: #BF0000;
+}
+
+.dab {
+    background-color: #BF003F;
+}
+
+.dac {
+    background-color: #BF007F;
+}
+
+.dad {
+    background-color: #BF00bf;
+}
+
+.dae {
+    background-color: #BF00FF;
+}
+
+.dba {
+    background-color: #BF3F00;
+}
+
+.dbb {
+    background-color: #BF3F3F;
+}
+
+.dbc {
+    background-color: #BF3F7F;
+}
+
+.dbd {
+    background-color: #BF3Fbf;
+}
+
+.dbe {
+    background-color: #BF3FFF;
+}
+
+.dca {
+    background-color: #BF7F00;
+}
+
+.dcb {
+    background-color: #BF7F3F;
+}
+
+.dcc {
+    background-color: #BF7F7F;
+}
+
+.dcd {
+    background-color: #BF7Fbf;
+}
+
+.dce {
+    background-color: #BF7FFF;
+}
+
+.dda {
+    background-color: #Bfbf00;
+}
+
+.ddb {
+    background-color: #Bfbf3F;
+}
+
+.ddc {
+    background-color: #Bfbf7F;
+}
+
+.ddd {
+    background-color: #Bfbfbf;
+}
+
+.dde {
+    background-color: #BfbfFF;
+}
+
+.dea {
+    background-color: #BFFF00;
+}
+
+.deb {
+    background-color: #BFFF3F;
+}
+
+.dec {
+    background-color: #BFFF7F;
+}
+
+.ded {
+    background-color: #BFFFbf;
+}
+
+.dee {
+    background-color: #BFFFFF;
+}
+
+.eaa {
+    background-color: #FF0000;
+}
+
+.eab {
+    background-color: #FF003F;
+}
+
+.eac {
+    background-color: #FF007F;
+}
+
+.ead {
+    background-color: #FF00bf;
+}
+
+.eae {
+    background-color: #FF00FF;
+}
+
+.eba {
+    background-color: #FF3F00;
+}
+
+.ebb {
+    background-color: #FF3F3F;
+}
+
+.ebc {
+    background-color: #FF3F7F;
+}
+
+.ebd {
+    background-color: #FF3Fbf;
+}
+
+.ebe {
+    background-color: #FF3FFF;
+}
+
+.eca {
+    background-color: #FF7F00;
+}
+
+.ecb {
+    background-color: #FF7F3F;
+}
+
+.ecc {
+    background-color: #FF7F7F;
+}
+
+.ecd {
+    background-color: #FF7Fbf;
+}
+
+.ece {
+    background-color: #FF7FFF;
+}
+
+.eda {
+    background-color: #Ffbf00;
+}
+
+.edb {
+    background-color: #Ffbf3F;
+}
+
+.edc {
+    background-color: #Ffbf7F;
+}
+
+.edd {
+    background-color: #Ffbfbf;
+}
+
+.ede {
+    background-color: #FfbfFF;
+}
+
+.eea {
+    background-color: #FFFF00;
+}
+
+.eeb {
+    background-color: #FFFF3F;
+}
+
+.eec {
+    background-color: #FFFF7F;
+}
+
+.eed {
+    background-color: #FFFFbf;
+}
+
+.eee {
+    background-color: #FFFFFF;
+}
+.taaa {
+    color: #000000;
+}
+
+.taab {
+    color: #00003F;
+}
+
+.taac {
+    color: #00007F;
+}
+
+.taad {
+    color: #0000bf;
+}
+
+.taae {
+    color: #0000FF;
+}
+
+.taba {
+    color: #003F00;
+}
+
+.tabb {
+    color: #003F3F;
+}
+
+.tabc {
+    color: #003F7F;
+}
+
+.tabd {
+    color: #003Fbf;
+}
+
+.tabe {
+    color: #003FFF;
+}
+
+.taca {
+    color: #007F00;
+}
+
+.tacb {
+    color: #007F3F;
+}
+
+.tacc {
+    color: #007F7F;
+}
+
+.tacd {
+    color: #007Fbf;
+}
+
+.tace {
+    color: #007FFF;
+}
+
+.tada {
+    color: #00bf00;
+}
+
+.tadb {
+    color: #00bf3F;
+}
+
+.tadc {
+    color: #00bf7F;
+}
+
+.tadd {
+    color: #00bfbf;
+}
+
+.tade {
+    color: #00bfFF;
+}
+
+.taea {
+    color: #00FF00;
+}
+
+.taeb {
+    color: #00FF3F;
+}
+
+.taec {
+    color: #00FF7F;
+}
+
+.taed {
+    color: #00FFbf;
+}
+
+.taee {
+    color: #00FFFF;
+}
+
+.tbaa {
+    color: #3F0000;
+}
+
+.tbab {
+    color: #3F003F;
+}
+
+.tbac {
+    color: #3F007F;
+}
+
+.tbad {
+    color: #3F00bf;
+}
+
+.tbae {
+    color: #3F00FF;
+}
+
+.tbba {
+    color: #3F3F00;
+}
+
+.tbbb {
+    color: #3F3F3F;
+}
+
+.tbbc {
+    color: #3F3F7F;
+}
+
+.tbbd {
+    color: #3F3Fbf;
+}
+
+.tbbe {
+    color: #3F3FFF;
+}
+
+.tbca {
+    color: #3F7F00;
+}
+
+.tbcb {
+    color: #3F7F3F;
+}
+
+.tbcc {
+    color: #3F7F7F;
+}
+
+.tbcd {
+    color: #3F7Fbf;
+}
+
+.tbce {
+    color: #3F7FFF;
+}
+
+.tbda {
+    color: #3fbf00;
+}
+
+.tbdb {
+    color: #3fbf3F;
+}
+
+.tbdc {
+    color: #3fbf7F;
+}
+
+.tbdd {
+    color: #3fbfbf;
+}
+
+.tbde {
+    color: #3fbfFF;
+}
+
+.tbea {
+    color: #3FFF00;
+}
+
+.tbeb {
+    color: #3FFF3F;
+}
+
+.tbec {
+    color: #3FFF7F;
+}
+
+.tbed {
+    color: #3FFFbf;
+}
+
+.tbee {
+    color: #3FFFFF;
+}
+
+.tcaa {
+    color: #7F0000;
+}
+
+.tcab {
+    color: #7F003F;
+}
+
+.tcac {
+    color: #7F007F;
+}
+
+.tcad {
+    color: #7F00bf;
+}
+
+.tcae {
+    color: #7F00FF;
+}
+
+.tcba {
+    color: #7F3F00;
+}
+
+.tcbb {
+    color: #7F3F3F;
+}
+
+.tcbc {
+    color: #7F3F7F;
+}
+
+.tcbd {
+    color: #7F3Fbf;
+}
+
+.tcbe {
+    color: #7F3FFF;
+}
+
+.tcca {
+    color: #7F7F00;
+}
+
+.tccb {
+    color: #7F7F3F;
+}
+
+.tccc {
+    color: #7F7F7F;
+}
+
+.tccd {
+    color: #7F7Fbf;
+}
+
+.tcce {
+    color: #7F7FFF;
+}
+
+.tcda {
+    color: #7fbf00;
+}
+
+.tcdb {
+    color: #7fbf3F;
+}
+
+.tcdc {
+    color: #7fbf7F;
+}
+
+.tcdd {
+    color: #7fbfbf;
+}
+
+.tcde {
+    color: #7fbfFF;
+}
+
+.tcea {
+    color: #7FFF00;
+}
+
+.tceb {
+    color: #7FFF3F;
+}
+
+.tcec {
+    color: #7FFF7F;
+}
+
+.tced {
+    color: #7FFFbf;
+}
+
+.tcee {
+    color: #7FFFFF;
+}
+
+.tdaa {
+    color: #BF0000;
+}
+
+.tdab {
+    color: #BF003F;
+}
+
+.tdac {
+    color: #BF007F;
+}
+
+.tdad {
+    color: #BF00bf;
+}
+
+.tdae {
+    color: #BF00FF;
+}
+
+.tdba {
+    color: #BF3F00;
+}
+
+.tdbb {
+    color: #BF3F3F;
+}
+
+.tdbc {
+    color: #BF3F7F;
+}
+
+.tdbd {
+    color: #BF3Fbf;
+}
+
+.tdbe {
+    color: #BF3FFF;
+}
+
+.tdca {
+    color: #BF7F00;
+}
+
+.tdcb {
+    color: #BF7F3F;
+}
+
+.tdcc {
+    color: #BF7F7F;
+}
+
+.tdcd {
+    color: #BF7Fbf;
+}
+
+.tdce {
+    color: #BF7FFF;
+}
+
+.tdda {
+    color: #Bfbf00;
+}
+
+.tddb {
+    color: #Bfbf3F;
+}
+
+.tddc {
+    color: #Bfbf7F;
+}
+
+.tddd {
+    color: #Bfbfbf;
+}
+
+.tdde {
+    color: #BfbfFF;
+}
+
+.tdea {
+    color: #BFFF00;
+}
+
+.tdeb {
+    color: #BFFF3F;
+}
+
+.tdec {
+    color: #BFFF7F;
+}
+
+.tded {
+    color: #BFFFbf;
+}
+
+.tdee {
+    color: #BFFFFF;
+}
+
+.teaa {
+    color: #FF0000;
+}
+
+.teab {
+    color: #FF003F;
+}
+
+.teac {
+    color: #FF007F;
+}
+
+.tead {
+    color: #FF00bf;
+}
+
+.teae {
+    color: #FF00FF;
+}
+
+.teba {
+    color: #FF3F00;
+}
+
+.tebb {
+    color: #FF3F3F;
+}
+
+.tebc {
+    color: #FF3F7F;
+}
+
+.tebd {
+    color: #FF3Fbf;
+}
+
+.tebe {
+    color: #FF3FFF;
+}
+
+.teca {
+    color: #FF7F00;
+}
+
+.tecb {
+    color: #FF7F3F;
+}
+
+.tecc {
+    color: #FF7F7F;
+}
+
+.tecd {
+    color: #FF7Fbf;
+}
+
+.tece {
+    color: #FF7FFF;
+}
+
+.teda {
+    color: #Ffbf00;
+}
+
+.tedb {
+    color: #Ffbf3F;
+}
+
+.tedc {
+    color: #Ffbf7F;
+}
+
+.tedd {
+    color: #Ffbfbf;
+}
+
+.tede {
+    color: #FfbfFF;
+}
+
+.teea {
+    color: #FFFF00;
+}
+
+.teeb {
+    color: #FFFF3F;
+}
+
+.teec {
+    color: #FFFF7F;
+}
+
+.teed {
+    color: #FFFFbf;
+}
+
+.teee {
+    color: #FFFFFF;
+}

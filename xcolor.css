@@ -1,0 +1,381 @@
+@layer
+color {
+.vvv {background-color: #000000;}
+.vvw {background-color: #000030;}
+.vvx {background-color: #000070;}
+.vvy {background-color: #0000b0;}
+.vvz {background-color: #0000f0;}
+.vwv {background-color: #003000;}
+.vww {background-color: #003030;}
+.vwx {background-color: #003070;}
+.vwy {background-color: #0030b0;}
+.vwz {background-color: #0030f0;}
+.vxv {background-color: #007000;}
+.vxw {background-color: #007030;}
+.vxx {background-color: #007070;}
+.vxy {background-color: #0070b0;}
+.vxz {background-color: #0070f0;}
+.vyv {background-color: #00b000;}
+.vyw {background-color: #00b030;}
+.vyx {background-color: #00b070;}
+.vyy {background-color: #00b0b0;}
+.vyz {background-color: #00b0f0;}
+.vzv {background-color: #00f000;}
+.vzw {background-color: #00f030;}
+.vzx {background-color: #00f070;}
+.vzy {background-color: #00f0b0;}
+.vzz {background-color: #00f0f0;}
+.wvv {background-color: #300000;}
+.wvw {background-color: #300030;}
+.wvx {background-color: #300070;}
+.wvy {background-color: #3000b0;}
+.wvz {background-color: #3000f0;}
+.wwv {background-color: #303000;}
+.www {background-color: #303030;}
+.wwx {background-color: #303070;}
+.wwy {background-color: #3030b0;}
+.wwz {background-color: #3030f0;}
+.wxv {background-color: #307000;}
+.wxw {background-color: #307030;}
+.wxx {background-color: #307070;}
+.wxy {background-color: #3070b0;}
+.wxz {background-color: #3070f0;}
+.wyv {background-color: #30b000;}
+.wyw {background-color: #30b030;}
+.wyx {background-color: #30b070;}
+.wyy {background-color: #30b0b0;}
+.wyz {background-color: #30b0f0;}
+.wzv {background-color: #30f000;}
+.wzw {background-color: #30f030;}
+.wzx {background-color: #30f070;}
+.wzy {background-color: #30f0b0;}
+.wzz {background-color: #30f0f0;}
+.xvv {background-color: #700000;}
+.xvw {background-color: #700030;}
+.xvx {background-color: #700070;}
+.xvy {background-color: #7000b0;}
+.xvz {background-color: #7000f0;}
+.xwv {background-color: #703000;}
+.xww {background-color: #703030;}
+.xwx {background-color: #703070;}
+.xwy {background-color: #7030b0;}
+.xwz {background-color: #7030f0;}
+.xxv {background-color: #707000;}
+.xxw {background-color: #707030;}
+.xxx {background-color: #707070;}
+.xxy {background-color: #7070b0;}
+.xxz {background-color: #7070f0;}
+.xyv {background-color: #70b000;}
+.xyw {background-color: #70b030;}
+.xyx {background-color: #70b070;}
+.xyy {background-color: #70b0b0;}
+.xyz {background-color: #70b0f0;}
+.xzv {background-color: #70f000;}
+.xzw {background-color: #70f030;}
+.xzx {background-color: #70f070;}
+.xzy {background-color: #70f0b0;}
+.xzz {background-color: #70f0f0;}
+.yvv {background-color: #b00000;}
+.yvw {background-color: #b00030;}
+.yvx {background-color: #b00070;}
+.yvy {background-color: #b000b0;}
+.yvz {background-color: #b000f0;}
+.ywv {background-color: #b03000;}
+.yww {background-color: #b03030;}
+.ywx {background-color: #b03070;}
+.ywy {background-color: #b030b0;}
+.ywz {background-color: #b030f0;}
+.yxv {background-color: #b07000;}
+.yxw {background-color: #b07030;}
+.yxx {background-color: #b07070;}
+.yxy {background-color: #b070b0;}
+.yxz {background-color: #b070f0;}
+.yyv {background-color: #b0b000;}
+.yyw {background-color: #b0b030;}
+.yyx {background-color: #b0b070;}
+.yyy {background-color: #b0b0b0;}
+.yyz {background-color: #b0b0f0;}
+.yzv {background-color: #b0f000;}
+.yzw {background-color: #b0f030;}
+.yzx {background-color: #b0f070;}
+.yzy {background-color: #b0f0b0;}
+.yzz {background-color: #b0f0f0;}
+.zvv {background-color: #f00000;}
+.zvw {background-color: #f00030;}
+.zvx {background-color: #f00070;}
+.zvy {background-color: #f000b0;}
+.zvz {background-color: #f000f0;}
+.zwv {background-color: #f03000;}
+.zww {background-color: #f03030;}
+.zwx {background-color: #f03070;}
+.zwy {background-color: #f030b0;}
+.zwz {background-color: #f030f0;}
+.zxv {background-color: #f07000;}
+.zxw {background-color: #f07030;}
+.zxx {background-color: #f07070;}
+.zxy {background-color: #f070b0;}
+.zxz {background-color: #f070f0;}
+.zyv {background-color: #f0b000;}
+.zyw {background-color: #f0b030;}
+.zyx {background-color: #f0b070;}
+.zyy {background-color: #f0b0b0;}
+.zyz {background-color: #f0b0f0;}
+.zzv {background-color: #f0f000;}
+.zzw {background-color: #f0f030;}
+.zzx {background-color: #f0f070;}
+.zzy {background-color: #f0f0b0;}
+.zzz {background-color: #f0f0f0;}
+
+.vvv p {visibility: hidden;}
+.vvw p {visibility: hidden;}
+.vvx p {visibility: hidden;}
+.vvy p {visibility: hidden;}
+.vvz p {visibility: hidden;}
+.vwv p {visibility: hidden;}
+.vww p {visibility: hidden;}
+.vwx p {visibility: hidden;}
+.vwy p {visibility: hidden;}
+.vwz p {visibility: hidden;}
+.vxv p {visibility: hidden;}
+.vxw p {visibility: hidden;}
+.vxx p {visibility: hidden;}
+.vxy p {visibility: hidden;}
+.vxz p {visibility: hidden;}
+.vyv p {visibility: hidden;}
+.vyw p {visibility: hidden;}
+.vyx p {visibility: hidden;}
+.vyy p {visibility: hidden;}
+.vyz p {visibility: hidden;}
+.vzv p {visibility: hidden;}
+.vzw p {visibility: hidden;}
+.vzx p {visibility: hidden;}
+.vzy p {visibility: hidden;}
+.vzz p {visibility: hidden;}
+.wvv p {visibility: hidden;}
+.wvw p {visibility: hidden;}
+.wvx p {visibility: hidden;}
+.wvy p {visibility: hidden;}
+.wvz p {visibility: hidden;}
+.wwv p {visibility: hidden;}
+.www p {visibility: hidden;}
+.wwx p {visibility: hidden;}
+.wwy p {visibility: hidden;}
+.wwz p {visibility: hidden;}
+.wxv p {visibility: hidden;}
+.wxw p {visibility: hidden;}
+.wxx p {visibility: hidden;}
+.wxy p {visibility: hidden;}
+.wxz p {visibility: hidden;}
+.wyv p {visibility: hidden;}
+.wyw p {visibility: hidden;}
+.wyx p {visibility: hidden;}
+.wyy p {visibility: hidden;}
+.wyz p {visibility: hidden;}
+.wzv p {visibility: hidden;}
+.wzw p {visibility: hidden;}
+.wzx p {visibility: hidden;}
+.wzy p {visibility: hidden;}
+.wzz p {visibility: hidden;}
+.xvv p {visibility: hidden;}
+.xvw p {visibility: hidden;}
+.xvx p {visibility: hidden;}
+.xvy p {visibility: hidden;}
+.xvz p {visibility: hidden;}
+.xwv p {visibility: hidden;}
+.xww p {visibility: hidden;}
+.xwx p {visibility: hidden;}
+.xwy p {visibility: hidden;}
+.xwz p {visibility: hidden;}
+.xxv p {visibility: hidden;}
+.xxw p {visibility: hidden;}
+.xxx p {visibility: hidden;}
+.xxy p {visibility: hidden;}
+.xxz p {visibility: hidden;}
+.xyv p {visibility: hidden;}
+.xyw p {visibility: hidden;}
+.xyx p {visibility: hidden;}
+.xyy p {visibility: hidden;}
+.xyz p {visibility: hidden;}
+.xzv p {visibility: hidden;}
+.xzw p {visibility: hidden;}
+.xzx p {visibility: hidden;}
+.xzy p {visibility: hidden;}
+.xzz p {visibility: hidden;}
+.yvv p {visibility: hidden;}
+.yvw p {visibility: hidden;}
+.yvx p {visibility: hidden;}
+.yvy p {visibility: hidden;}
+.yvz p {visibility: hidden;}
+.ywv p {visibility: hidden;}
+.yww p {visibility: hidden;}
+.ywx p {visibility: hidden;}
+.ywy p {visibility: hidden;}
+.ywz p {visibility: hidden;}
+.yxv p {visibility: hidden;}
+.yxw p {visibility: hidden;}
+.yxx p {visibility: hidden;}
+.yxy p {visibility: hidden;}
+.yxz p {visibility: hidden;}
+.yyv p {visibility: hidden;}
+.yyw p {visibility: hidden;}
+.yyx p {visibility: hidden;}
+.yyy p {visibility: hidden;}
+.yyz p {visibility: hidden;}
+.yzv p {visibility: hidden;}
+.yzw p {visibility: hidden;}
+.yzx p {visibility: hidden;}
+.yzy p {visibility: hidden;}
+.yzz p {visibility: hidden;}
+.zvv p {visibility: hidden;}
+.zvw p {visibility: hidden;}
+.zvx p {visibility: hidden;}
+.zvy p {visibility: hidden;}
+.zvz p {visibility: hidden;}
+.zwv p {visibility: hidden;}
+.zww p {visibility: hidden;}
+.zwx p {visibility: hidden;}
+.zwy p {visibility: hidden;}
+.zwz p {visibility: hidden;}
+.zxv p {visibility: hidden;}
+.zxw p {visibility: hidden;}
+.zxx p {visibility: hidden;}
+.zxy p {visibility: hidden;}
+.zxz p {visibility: hidden;}
+.zyv p {visibility: hidden;}
+.zyw p {visibility: hidden;}
+.zyx p {visibility: hidden;}
+.zyy p {visibility: hidden;}
+.zyz p {visibility: hidden;}
+.zzv p {visibility: hidden;}
+.zzw p {visibility: hidden;}
+.zzx p {visibility: hidden;}
+.zzy p {visibility: hidden;}
+.zzz p {visibility: hidden;}
+
+.vvv:hover p {color: whitesmoke; visibility: visible;}
+.vvw:hover p {color: whitesmoke; visibility: visible;}
+.vvx:hover p {color: whitesmoke; visibility: visible;}
+.vvy:hover p {color: whitesmoke; visibility: visible;}
+.vvz:hover p {color: whitesmoke; visibility: visible;}
+.vwv:hover p {color: whitesmoke; visibility: visible;}
+.vww:hover p {color: whitesmoke; visibility: visible;}
+.vwx:hover p {color: whitesmoke; visibility: visible;}
+.vwy:hover p {color: whitesmoke; visibility: visible;}
+.vwz:hover p {color: whitesmoke; visibility: visible;}
+.vxv:hover p {color: whitesmoke; visibility: visible;}
+.vxw:hover p {color: whitesmoke; visibility: visible;}
+.vxx:hover p {color: whitesmoke; visibility: visible;}
+.vxy:hover p {color: whitesmoke; visibility: visible;}
+.vxz:hover p {color: whitesmoke; visibility: visible;}
+.vyv:hover p {color: whitesmoke; visibility: visible;}
+.vyw:hover p {color: whitesmoke; visibility: visible;}
+.vyx:hover p {color: whitesmoke; visibility: visible;}
+.vyy:hover p {color: whitesmoke; visibility: visible;}
+.vyz:hover p {color: whitesmoke; visibility: visible;}
+.vzv:hover p {color: whitesmoke; visibility: visible;}
+.vzw:hover p {color: whitesmoke; visibility: visible;}
+.vzx:hover p {color: whitesmoke; visibility: visible;}
+.vzy:hover p {color: whitesmoke; visibility: visible;}
+.vzz:hover p {color: whitesmoke; visibility: visible;}
+.wvv:hover p {color: whitesmoke; visibility: visible;}
+.wvw:hover p {color: whitesmoke; visibility: visible;}
+.wvx:hover p {color: whitesmoke; visibility: visible;}
+.wvy:hover p {color: whitesmoke; visibility: visible;}
+.wvz:hover p {color: whitesmoke; visibility: visible;}
+.wwv:hover p {color: whitesmoke; visibility: visible;}
+.www:hover p {color: whitesmoke; visibility: visible;}
+.wwx:hover p {color: whitesmoke; visibility: visible;}
+.wwy:hover p {color: whitesmoke; visibility: visible;}
+.wwz:hover p {color: whitesmoke; visibility: visible;}
+.wxv:hover p {color: whitesmoke; visibility: visible;}
+.wxw:hover p {color: whitesmoke; visibility: visible;}
+.wxx:hover p {color: whitesmoke; visibility: visible;}
+.wxy:hover p {color: whitesmoke; visibility: visible;}
+.wxz:hover p {color: whitesmoke; visibility: visible;}
+.wyv:hover p {color: whitesmoke; visibility: visible;}
+.wyw:hover p {color: whitesmoke; visibility: visible;}
+.wyx:hover p {color: whitesmoke; visibility: visible;}
+.wyy:hover p {color: whitesmoke; visibility: visible;}
+.wyz:hover p {color: whitesmoke; visibility: visible;}
+.wzv:hover p {color: whitesmoke; visibility: visible;}
+.wzw:hover p {color: whitesmoke; visibility: visible;}
+.wzx:hover p {color: whitesmoke; visibility: visible;}
+.wzy:hover p {color: whitesmoke; visibility: visible;}
+.wzz:hover p {color: whitesmoke; visibility: visible;}
+.xvv:hover p {color: whitesmoke; visibility: visible;}
+.xvw:hover p {color: whitesmoke; visibility: visible;}
+.xvx:hover p {color: whitesmoke; visibility: visible;}
+.xvy:hover p {color: whitesmoke; visibility: visible;}
+.xvz:hover p {color: whitesmoke; visibility: visible;}
+.xwv:hover p {color: whitesmoke; visibility: visible;}
+.xww:hover p {color: whitesmoke; visibility: visible;}
+.xwx:hover p {color: whitesmoke; visibility: visible;}
+.xwy:hover p {color: whitesmoke; visibility: visible;}
+.xwz:hover p {color: whitesmoke; visibility: visible;}
+.xxv:hover p {color: whitesmoke; visibility: visible;}
+.xxw:hover p {color: whitesmoke; visibility: visible;}
+.xxx:hover p {color: whitesmoke; visibility: visible;}
+.xxy:hover p {color: whitesmoke; visibility: visible;}
+.xxz:hover p {color: whitesmoke; visibility: visible;}
+.xyv:hover p {color: whitesmoke; visibility: visible;}
+.xyw:hover p {color: whitesmoke; visibility: visible;}
+.xyx:hover p {color: whitesmoke; visibility: visible;}
+.xyy:hover p {color: whitesmoke; visibility: visible;}
+.xyz:hover p {color: whitesmoke; visibility: visible;}
+.xzv:hover p {color: whitesmoke; visibility: visible;}
+.xzw:hover p {color: whitesmoke; visibility: visible;}
+.xzx:hover p {color: whitesmoke; visibility: visible;}
+.xzy:hover p {color: whitesmoke; visibility: visible;}
+.xzz:hover p {color: whitesmoke; visibility: visible;}
+.yvv:hover p {color: whitesmoke; visibility: visible;}
+.yvw:hover p {color: whitesmoke; visibility: visible;}
+.yvx:hover p {color: whitesmoke; visibility: visible;}
+.yvy:hover p {color: whitesmoke; visibility: visible;}
+.yvz:hover p {color: whitesmoke; visibility: visible;}
+.ywv:hover p {color: whitesmoke; visibility: visible;}
+.yww:hover p {color: whitesmoke; visibility: visible;}
+.ywx:hover p {color: whitesmoke; visibility: visible;}
+.ywy:hover p {color: whitesmoke; visibility: visible;}
+.ywz:hover p {color: whitesmoke; visibility: visible;}
+.yxv:hover p {color: whitesmoke; visibility: visible;}
+.yxw:hover p {color: whitesmoke; visibility: visible;}
+.yxx:hover p {color: whitesmoke; visibility: visible;}
+.yxy:hover p {color: whitesmoke; visibility: visible;}
+.yxz:hover p {color: whitesmoke; visibility: visible;}
+.yyv:hover p {color: whitesmoke; visibility: visible;}
+.yyw:hover p {color: whitesmoke; visibility: visible;}
+.yyx:hover p {color: whitesmoke; visibility: visible;}
+.yyy:hover p {color: whitesmoke; visibility: visible;}
+.yyz:hover p {color: whitesmoke; visibility: visible;}
+.yzv:hover p {color: whitesmoke; visibility: visible;}
+.yzw:hover p {color: whitesmoke; visibility: visible;}
+.yzx:hover p {color: whitesmoke; visibility: visible;}
+.yzy:hover p {color: whitesmoke; visibility: visible;}
+.yzz:hover p {color: whitesmoke; visibility: visible;}
+.zvv:hover p {color: whitesmoke; visibility: visible;}
+.zvw:hover p {color: whitesmoke; visibility: visible;}
+.zvx:hover p {color: whitesmoke; visibility: visible;}
+.zvy:hover p {color: whitesmoke; visibility: visible;}
+.zvz:hover p {color: whitesmoke; visibility: visible;}
+.zwv:hover p {color: whitesmoke; visibility: visible;}
+.zww:hover p {color: whitesmoke; visibility: visible;}
+.zwx:hover p {color: whitesmoke; visibility: visible;}
+.zwy:hover p {color: whitesmoke; visibility: visible;}
+.zwz:hover p {color: whitesmoke; visibility: visible;}
+.zxv:hover p {color: whitesmoke; visibility: visible;}
+.zxw:hover p {color: whitesmoke; visibility: visible;}
+.zxx:hover p {color: whitesmoke; visibility: visible;}
+.zxy:hover p {color: whitesmoke; visibility: visible;}
+.zxz:hover p {color: whitesmoke; visibility: visible;}
+.zyv:hover p {color: whitesmoke; visibility: visible;}
+.zyw:hover p {color: whitesmoke; visibility: visible;}
+.zyx:hover p {color: whitesmoke; visibility: visible;}
+.zyy:hover p {color: whitesmoke; visibility: visible;}
+.zyz:hover p {color: whitesmoke; visibility: visible;}
+.zzv:hover p {color: whitesmoke; visibility: visible;}
+.zzw:hover p {color: whitesmoke; visibility: visible;}
+.zzx:hover p {color: whitesmoke; visibility: visible;}
+.zzy:hover p {color: whitesmoke; visibility: visible;}
+.zzz:hover p {color: whitesmoke; visibility: visible;}
+
+}

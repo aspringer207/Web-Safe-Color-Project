@@ -1,0 +1,35 @@
+@layer reset {
+    * {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    body {
+        background: #101010;
+        color: #FAFAFA;
+        -webkit-font-smoothing: antialiased;
+        transition: all 0.4s cubic-bezier(0.45, 0, 0.55, 1);
+        -moz-transition: all 0.4s cubic-bezier(0.45, 0, 0.55, 1);
+        -ms-transition: all 0.4s cubic-bezier(0.45, 0, 0.55, 1);
+        -o-transition: all 0.4s cubic-bezier(0.45, 0, 0.55, 1);
+        -webkit-transition: all 0.4s cubic-bezier(0.45, 0, 0.55, 1);
+    }
+
+    body,
+    input,
+    button {
+        font-size: 16pt;
+        font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+        font-weight: normal;
+    }
+
+    button {
+        cursor: pointer;
+    }
+}

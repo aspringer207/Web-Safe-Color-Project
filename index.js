@@ -1,5 +1,0 @@
-function activate() {
-    //!SECTION
-
-    //!SECTION
-}

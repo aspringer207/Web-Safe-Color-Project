@@ -1,0 +1,78 @@
+@layer mediareset{
+@media (max-width: 767.98px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        justify-items: space-between;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 36pt;
+    }
+
+    h2 {
+        font-size: 30pt;
+    }
+
+    h3 {
+        font-size: 24pt;
+    }
+
+    h4 {
+        font-size: 18pt;
+    }
+
+    a {
+        font-size: 16pt;
+    }
+
+    p {
+        font-size: 14pt;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        justify-items: space-between;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    h1 {
+        font-size: 24pt;
+    }
+
+    h2 {
+        font-size: 20pt;
+    }
+
+    h3 {
+        font-size: 18pt;
+    }
+
+    h4 {
+        font-size: 16pt;
+    }
+
+    a {
+        font-size: 14pt;
+    }
+
+    p {
+        font-size: 13pt;
+    }
+}}
