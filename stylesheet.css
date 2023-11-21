@@ -197,9 +197,9 @@ html {
 
 .huebox {
     border: 1px outset rgba(120, 120, 120, .25);
-    height: 75px;
+    height: 100px;
     text-align: center;
-    width: 75px;
+    width: 100px;
     margin: 7.5px;
     margin-bottom:2.5px;
     color: white;
@@ -222,12 +222,11 @@ html {
     -o-border-radius:3px;
     border-radius:3px;
     background-color: #fff;
-    
 }
 .frame p{
     color: #707070;
     display: inline-block;
-    font-size: 14pt;
+    font-size: 10pt;
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;

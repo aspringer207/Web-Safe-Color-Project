@@ -96,5 +96,8 @@
     "liveServer.settings.donotVerifyTags": true,
     "inlineFold.autoFold": false,
     "inlineFold.useGlobal": false,
-    "inlineFold.regexGroup": "6"
+    "inlineFold.regexGroup": "6",
+    "[html]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    }
 }

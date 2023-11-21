@@ -1,0 +1,84 @@
+html {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: #161616;
+    color: whitesmoke;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+div span {
+    display: flex;
+    flex-direction: row;}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+h1 {font-family: "Belanosima", sans-serif;
+    font-weight: normal;
+    font-size: 96pt;
+    margin-top: 9rem;
+    margin-bottom: 6rem;
+    text-transform: uppercase;
+}
+.huebox {
+    border: 2px outset rgba(120, 120, 120, .25);
+    height: 150px;
+    text-align: center;
+    width: 150px;
+    margin: 10px auto;
+    margin-bottom:2.5px;
+    color: white;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    -ms-border-radius:2px;
+    -o-border-radius:2px;
+    border-radius:2px;
+}
+.frame {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 240px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,25%);
+    border: 2px  outset rgba(120, 120, 120, 25%);
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+    border-radius:3px;
+    background-color: whitesmoke;
+}
+.colordata{
+    font-family: "Cabin Condensed", sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    visibility: collapse;
+    color: rgba(250, 250, 250, 1%);
+    margin: 5px 15px;
+}
+.frame:hover .colordata{
+    color: rgba(16, 16, 16, 90%);
+    visibility: visible;
+    transition-duration: 0.3s;
+    transition-delay: 0.05s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
