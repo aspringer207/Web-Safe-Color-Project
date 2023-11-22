@@ -325,7 +325,6 @@ section .pwrap {
   -o-border-radius: 5px 5px 0 0;
 }
 
-/*SECTION - Home */
 #home h2 {
   font-size: 72pt;
 }
@@ -405,7 +404,7 @@ section .pwrap {
 }
 
 /*!SECTION - Colors */
-/*SECTION = About */
+/*SECTION - About */
 #about table,
 #about th,
 #about td {
@@ -556,7 +555,6 @@ section .pwrap {
   white-space: normal;
 }
 
-/*!SECTION - Home*/
 /*!SECTION - Main*/
 .red {
   color: red;
