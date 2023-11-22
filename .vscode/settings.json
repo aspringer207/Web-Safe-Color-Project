@@ -5,14 +5,12 @@
     ],
     "prettier.bracketSameLine": false,
     "vs-html-to-css.ignore": [
-
         "container",
         "row"
     ],
     "editor.defaultFoldingRangeProvider": "vscode.html-language-features",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "css-auto-prefix.prefixes": {
-
         "transform": [
             "webkit",
             "moz",
@@ -98,6 +96,6 @@
     "inlineFold.useGlobal": false,
     "inlineFold.regexGroup": "6",
     "[html]": {
-        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+        "editor.defaultFormatter": "vscode.html-language-features"
     }
 }
