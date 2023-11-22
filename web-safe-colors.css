@@ -1,216 +1,648 @@
-.uuu{background-color:#000000}
-.vvv{background-color:#333333}
-.www{background-color:#666666}
-.xxx{background-color:#999999}
-.yyy{background-color:#CCCCCC}
-.zzz{background-color:#FFFFFF}
-.vuu{background-color:#330000}
-.wuu{background-color:#660000}
-.xuu{background-color:#990000}
-.yuu{background-color:#CC0000}
-.zuu{background-color:#FF0000}
-.zvv{background-color:#FF3333}
-.zww{background-color:#FF6666}
-.zxx{background-color:#FF9999}
-.zyy{background-color:#FFCCCC}
-.yvv{background-color:#CC3333}
-.yww{background-color:#CC6666}
-.xvv{background-color:#993333}
-.yxx{background-color:#CC9999}
-.wvv{background-color:#663333}
-.xww{background-color:#996666}
-.zvu{background-color:#FF3300}
-.yvu{background-color:#CC3300}
-.zwv{background-color:#FF6633}
-.zxw{background-color:#FF9966}
-.ywv{background-color:#CC6633}
-.xvu{background-color:#993300}
-.zwu{background-color:#FF6600}
-.yxw{background-color:#CC9966}
-.zxv{background-color:#FF9933}
-.wvu{background-color:#663300}
-.ywu{background-color:#CC6600}
-.zyx{background-color:#FFCC99}
-.xwv{background-color:#996633}
-.zxu{background-color:#FF9900}
-.yxv{background-color:#CC9933}
-.xwu{background-color:#996600}
-.zyw{background-color:#FFCC66}
-.yxu{background-color:#CC9900}
-.zyv{background-color:#FFCC33}
-.zyu{background-color:#FFCC00}
-.vvu{background-color:#333300}
-.wwu{background-color:#666600}
-.xxu{background-color:#999900}
-.yyu{background-color:#CCCC00}
-.zzu{background-color:#FFFF00}
-.zzv{background-color:#FFFF33}
-.zzw{background-color:#FFFF66}
-.zzx{background-color:#FFFF99}
-.zzy{background-color:#FFFFCC}
-.yyv{background-color:#CCCC33}
-.yyw{background-color:#CCCC66}
-.xxv{background-color:#999933}
-.yyx{background-color:#CCCC99}
-.wwv{background-color:#666633}
-.xxw{background-color:#999966}
-.yzu{background-color:#CCFF00}
-.xyu{background-color:#99CC00}
-.yzv{background-color:#CCFF33}
-.wxu{background-color:#669900}
-.yzw{background-color:#CCFF66}
-.xyv{background-color:#99CC33}
-.xzu{background-color:#99FF00}
-.vwu{background-color:#336600}
-.wyu{background-color:#66CC00}
-.xzv{background-color:#99FF33}
-.yzx{background-color:#CCFF99}
-.xyw{background-color:#99CC66}
-.wxv{background-color:#669933}
-.wzu{background-color:#66FF00}
-.vxu{background-color:#339900}
-.xzw{background-color:#99FF66}
-.wyv{background-color:#66CC33}
-.vyu{background-color:#33CC00}
-.wzv{background-color:#66FF33}
-.vzu{background-color:#33FF00}
-.uvu{background-color:#003300}
-.uwu{background-color:#006600}
-.uxu{background-color:#009900}
-.uyu{background-color:#00CC00}
-.uzu{background-color:#00FF00}
-.vzv{background-color:#33FF33}
-.wzw{background-color:#66FF66}
-.xzx{background-color:#99FF99}
-.yzy{background-color:#CCFFCC}
-.vyv{background-color:#33CC33}
-.wyw{background-color:#66CC66}
-.vxv{background-color:#339933}
-.xyx{background-color:#99CC99}
-.vwv{background-color:#336633}
-.wxw{background-color:#669966}
-.uzv{background-color:#00FF33}
-.uyv{background-color:#00CC33}
-.vzw{background-color:#33FF66}
-.wzx{background-color:#66FF99}
-.uxv{background-color:#009933}
-.vyw{background-color:#33CC66}
-.uzw{background-color:#00FF66}
-.uwv{background-color:#006633}
-.uyw{background-color:#00CC66}
-.vzx{background-color:#33FF99}
-.xzy{background-color:#99FFCC}
-.wyx{background-color:#66CC99}
-.vxw{background-color:#339966}
-.uzx{background-color:#00FF99}
-.vyx{background-color:#33CC99}
-.uxw{background-color:#009966}
-.wzy{background-color:#66FFCC}
-.uyx{background-color:#00CC99}
-.vzy{background-color:#33FFCC}
-.uzy{background-color:#00FFCC}
-.uvv{background-color:#003333}
-.uww{background-color:#006666}
-.uxx{background-color:#009999}
-.uyy{background-color:#00CCCC}
-.uzz{background-color:#00FFFF}
-.vzz{background-color:#33FFFF}
-.wzz{background-color:#66FFFF}
-.xzz{background-color:#99FFFF}
-.yzz{background-color:#CCFFFF}
-.vyy{background-color:#33CCCC}
-.wyy{background-color:#66CCCC}
-.vxx{background-color:#339999}
-.xyy{background-color:#99CCCC}
-.vww{background-color:#336666}
-.wxx{background-color:#669999}
-.uyz{background-color:#00CCFF}
-.uxy{background-color:#0099CC}
-.vyz{background-color:#33CCFF}
-.uwx{background-color:#006699}
-.wyz{background-color:#66CCFF}
-.vxy{background-color:#3399CC}
-.uxz{background-color:#0099FF}
-.uvw{background-color:#003366}
-.uwy{background-color:#0066CC}
-.vxz{background-color:#3399FF}
-.xyz{background-color:#99CCFF}
-.wxy{background-color:#6699CC}
-.vwx{background-color:#336699}
-.uwz{background-color:#0066FF}
-.uvx{background-color:#003399}
-.vwy{background-color:#3366CC}
-.wxz{background-color:#6699FF}
-.uvy{background-color:#0033CC}
-.vwz{background-color:#3366FF}
-.uvz{background-color:#0033FF}
-.uuv{background-color:#000033}
-.uuw{background-color:#000066}
-.uux{background-color:#000099}
-.uuy{background-color:#0000CC}
-.uuz{background-color:#0000FF}
-.vvz{background-color:#3333FF}
-.wwz{background-color:#6666FF}
-.xxz{background-color:#9999FF}
-.yyz{background-color:#CCCCFF}
-.vvy{background-color:#3333CC}
-.wwy{background-color:#6666CC}
-.vvx{background-color:#333399}
-.xxy{background-color:#9999CC}
-.vvw{background-color:#333366}
-.wwx{background-color:#666699}
-.vuz{background-color:#3300FF}
-.vuy{background-color:#3300CC}
-.wvz{background-color:#6633FF}
-.vux{background-color:#330099}
-.xwz{background-color:#9966FF}
-.wvy{background-color:#6633CC}
-.wuz{background-color:#6600FF}
-.vuw{background-color:#330066}
-.wuy{background-color:#6600CC}
-.xvz{background-color:#9933FF}
-.yxz{background-color:#CC99FF}
-.xwy{background-color:#9966CC}
-.wvx{background-color:#663399}
-.xuz{background-color:#9900FF}
-.xvy{background-color:#9933CC}
-.wux{background-color:#660099}
-.ywz{background-color:#CC66FF}
-.xuy{background-color:#9900CC}
-.yvz{background-color:#CC33FF}
-.yuz{background-color:#CC00FF}
-.vuv{background-color:#330033}
-.wuw{background-color:#660066}
-.xux{background-color:#990099}
-.yuy{background-color:#CC00CC}
-.zuz{background-color:#FF00FF}
-.zvz{background-color:#FF33FF}
-.zwz{background-color:#FF66FF}
-.zxz{background-color:#FF99FF}
-.zyz{background-color:#FFCCFF}
-.yvy{background-color:#CC33CC}
-.ywy{background-color:#CC66CC}
-.xvx{background-color:#993399}
-.yxy{background-color:#CC99CC}
-.wvw{background-color:#663366}
-.xwx{background-color:#996699}
-.zuy{background-color:#FF00CC}
-.yux{background-color:#CC0099}
-.zvy{background-color:#FF33CC}
-.xuw{background-color:#990066}
-.zwy{background-color:#FF66CC}
-.yvx{background-color:#CC3399}
-.zux{background-color:#FF0099}
-.wuv{background-color:#660033}
-.yuw{background-color:#CC0066}
-.zvx{background-color:#FF3399}
-.zxy{background-color:#FF99CC}
-.ywx{background-color:#CC6699}
-.xvw{background-color:#993366}
-.zuw{background-color:#FF0066}
-.xuv{background-color:#990033}
-.zwx{background-color:#FF6699}
-.yvw{background-color:#CC3366}
-.yuv{background-color:#CC0033}
-.zvw{background-color:#FF3366}
-.zuv{background-color:#FF0033}
+.uuu {
+  background-color: #000000 !important;
+}
+.vvv {
+  background-color: #333333 !important;
+}
+.www {
+  background-color: #666666 !important;
+}
+.xxx {
+  background-color: #999999 !important;
+}
+.yyy {
+  background-color: #cccccc !important;
+}
+.zzz {
+  background-color: #ffffff !important;
+}
+.vuu {
+  background-color: #330000 !important;
+}
+.wuu {
+  background-color: #660000 !important;
+}
+.xuu {
+  background-color: #990000 !important;
+}
+.yuu {
+  background-color: #cc0000 !important;
+}
+.zuu {
+  background-color: #ff0000 !important;
+}
+.zvv {
+  background-color: #ff3333 !important;
+}
+.zww {
+  background-color: #ff6666 !important;
+}
+.zxx {
+  background-color: #ff9999 !important;
+}
+.zyy {
+  background-color: #ffcccc !important;
+}
+.yvv {
+  background-color: #cc3333 !important;
+}
+.yww {
+  background-color: #cc6666 !important;
+}
+.xvv {
+  background-color: #993333 !important;
+}
+.yxx {
+  background-color: #cc9999 !important;
+}
+.wvv {
+  background-color: #663333 !important;
+}
+.xww {
+  background-color: #996666 !important;
+}
+.zvu {
+  background-color: #ff3300 !important;
+}
+.yvu {
+  background-color: #cc3300 !important;
+}
+.zwv {
+  background-color: #ff6633 !important;
+}
+.zxw {
+  background-color: #ff9966 !important;
+}
+.ywv {
+  background-color: #cc6633 !important;
+}
+.xvu {
+  background-color: #993300 !important;
+}
+.zwu {
+  background-color: #ff6600 !important;
+}
+.yxw {
+  background-color: #cc9966 !important;
+}
+.zxv {
+  background-color: #ff9933 !important;
+}
+.wvu {
+  background-color: #663300 !important;
+}
+.ywu {
+  background-color: #cc6600 !important;
+}
+.zyx {
+  background-color: #ffcc99 !important;
+}
+.xwv {
+  background-color: #996633 !important;
+}
+.zxu {
+  background-color: #ff9900 !important;
+}
+.yxv {
+  background-color: #cc9933 !important;
+}
+.xwu {
+  background-color: #996600 !important;
+}
+.zyw {
+  background-color: #ffcc66 !important;
+}
+.yxu {
+  background-color: #cc9900 !important;
+}
+.zyv {
+  background-color: #ffcc33 !important;
+}
+.zyu {
+  background-color: #ffcc00 !important;
+}
+.vvu {
+  background-color: #333300 !important;
+}
+.wwu {
+  background-color: #666600 !important;
+}
+.xxu {
+  background-color: #999900 !important;
+}
+.yyu {
+  background-color: #cccc00 !important;
+}
+.zzu {
+  background-color: #ffff00 !important;
+}
+.zzv {
+  background-color: #ffff33 !important;
+}
+.zzw {
+  background-color: #ffff66 !important;
+}
+.zzx {
+  background-color: #ffff99 !important;
+}
+.zzy {
+  background-color: #ffffcc !important;
+}
+.yyv {
+  background-color: #cccc33 !important;
+}
+.yyw {
+  background-color: #cccc66 !important;
+}
+.xxv {
+  background-color: #999933 !important;
+}
+.yyx {
+  background-color: #cccc99 !important;
+}
+.wwv {
+  background-color: #666633 !important;
+}
+.xxw {
+  background-color: #999966 !important;
+}
+.yzu {
+  background-color: #ccff00 !important;
+}
+.xyu {
+  background-color: #99cc00 !important;
+}
+.yzv {
+  background-color: #ccff33 !important;
+}
+.wxu {
+  background-color: #669900 !important;
+}
+.yzw {
+  background-color: #ccff66 !important;
+}
+.xyv {
+  background-color: #99cc33 !important;
+}
+.xzu {
+  background-color: #99ff00 !important;
+}
+.vwu {
+  background-color: #336600 !important;
+}
+.wyu {
+  background-color: #66cc00 !important;
+}
+.xzv {
+  background-color: #99ff33 !important;
+}
+.yzx {
+  background-color: #ccff99 !important;
+}
+.xyw {
+  background-color: #99cc66 !important;
+}
+.wxv {
+  background-color: #669933 !important;
+}
+.wzu {
+  background-color: #66ff00 !important;
+}
+.vxu {
+  background-color: #339900 !important;
+}
+.xzw {
+  background-color: #99ff66 !important;
+}
+.wyv {
+  background-color: #66cc33 !important;
+}
+.vyu {
+  background-color: #33cc00 !important;
+}
+.wzv {
+  background-color: #66ff33 !important;
+}
+.vzu {
+  background-color: #33ff00 !important;
+}
+.uvu {
+  background-color: #003300 !important;
+}
+.uwu {
+  background-color: #006600 !important;
+}
+.uxu {
+  background-color: #009900 !important;
+}
+.uyu {
+  background-color: #00cc00 !important;
+}
+.uzu {
+  background-color: #00ff00 !important;
+}
+.vzv {
+  background-color: #33ff33 !important;
+}
+.wzw {
+  background-color: #66ff66 !important;
+}
+.xzx {
+  background-color: #99ff99 !important;
+}
+.yzy {
+  background-color: #ccffcc !important;
+}
+.vyv {
+  background-color: #33cc33 !important;
+}
+.wyw {
+  background-color: #66cc66 !important;
+}
+.vxv {
+  background-color: #339933 !important;
+}
+.xyx {
+  background-color: #99cc99 !important;
+}
+.vwv {
+  background-color: #336633 !important;
+}
+.wxw {
+  background-color: #669966 !important;
+}
+.uzv {
+  background-color: #00ff33 !important;
+}
+.uyv {
+  background-color: #00cc33 !important;
+}
+.vzw {
+  background-color: #33ff66 !important;
+}
+.wzx {
+  background-color: #66ff99 !important;
+}
+.uxv {
+  background-color: #009933 !important;
+}
+.vyw {
+  background-color: #33cc66 !important;
+}
+.uzw {
+  background-color: #00ff66 !important;
+}
+.uwv {
+  background-color: #006633 !important;
+}
+.uyw {
+  background-color: #00cc66 !important;
+}
+.vzx {
+  background-color: #33ff99 !important;
+}
+.xzy {
+  background-color: #99ffcc !important;
+}
+.wyx {
+  background-color: #66cc99 !important;
+}
+.vxw {
+  background-color: #339966 !important;
+}
+.uzx {
+  background-color: #00ff99 !important;
+}
+.vyx {
+  background-color: #33cc99 !important;
+}
+.uxw {
+  background-color: #009966 !important;
+}
+.wzy {
+  background-color: #66ffcc !important;
+}
+.uyx {
+  background-color: #00cc99 !important;
+}
+.vzy {
+  background-color: #33ffcc !important;
+}
+.uzy {
+  background-color: #00ffcc !important;
+}
+.uvv {
+  background-color: #003333 !important;
+}
+.uww {
+  background-color: #006666 !important;
+}
+.uxx {
+  background-color: #009999 !important;
+}
+.uyy {
+  background-color: #00cccc !important;
+}
+.uzz {
+  background-color: #00ffff !important;
+}
+.vzz {
+  background-color: #33ffff !important;
+}
+.wzz {
+  background-color: #66ffff !important;
+}
+.xzz {
+  background-color: #99ffff !important;
+}
+.yzz {
+  background-color: #ccffff !important;
+}
+.vyy {
+  background-color: #33cccc !important;
+}
+.wyy {
+  background-color: #66cccc !important;
+}
+.vxx {
+  background-color: #339999 !important;
+}
+.xyy {
+  background-color: #99cccc !important;
+}
+.vww {
+  background-color: #336666 !important;
+}
+.wxx {
+  background-color: #669999 !important;
+}
+.uyz {
+  background-color: #00ccff !important;
+}
+.uxy {
+  background-color: #0099cc !important;
+}
+.vyz {
+  background-color: #33ccff !important;
+}
+.uwx {
+  background-color: #006699 !important;
+}
+.wyz {
+  background-color: #66ccff !important;
+}
+.vxy {
+  background-color: #3399cc !important;
+}
+.uxz {
+  background-color: #0099ff !important;
+}
+.uvw {
+  background-color: #003366 !important;
+}
+.uwy {
+  background-color: #0066cc !important;
+}
+.vxz {
+  background-color: #3399ff !important;
+}
+.xyz {
+  background-color: #99ccff !important;
+}
+.wxy {
+  background-color: #6699cc !important;
+}
+.vwx {
+  background-color: #336699 !important;
+}
+.uwz {
+  background-color: #0066ff !important;
+}
+.uvx {
+  background-color: #003399 !important;
+}
+.vwy {
+  background-color: #3366cc !important;
+}
+.wxz {
+  background-color: #6699ff !important;
+}
+.uvy {
+  background-color: #0033cc !important;
+}
+.vwz {
+  background-color: #3366ff !important;
+}
+.uvz {
+  background-color: #0033ff !important;
+}
+.uuv {
+  background-color: #000033 !important;
+}
+.uuw {
+  background-color: #000066 !important;
+}
+.uux {
+  background-color: #000099 !important;
+}
+.uuy {
+  background-color: #0000cc !important;
+}
+.uuz {
+  background-color: #0000ff !important;
+}
+.vvz {
+  background-color: #3333ff !important;
+}
+.wwz {
+  background-color: #6666ff !important;
+}
+.xxz {
+  background-color: #9999ff !important;
+}
+.yyz {
+  background-color: #ccccff !important;
+}
+.vvy {
+  background-color: #3333cc !important;
+}
+.wwy {
+  background-color: #6666cc !important;
+}
+.vvx {
+  background-color: #333399 !important;
+}
+.xxy {
+  background-color: #9999cc !important;
+}
+.vvw {
+  background-color: #333366 !important;
+}
+.wwx {
+  background-color: #666699 !important;
+}
+.vuz {
+  background-color: #3300ff !important;
+}
+.vuy {
+  background-color: #3300cc !important;
+}
+.wvz {
+  background-color: #6633ff !important;
+}
+.vux {
+  background-color: #330099 !important;
+}
+.xwz {
+  background-color: #9966ff !important;
+}
+.wvy {
+  background-color: #6633cc !important;
+}
+.wuz {
+  background-color: #6600ff !important;
+}
+.vuw {
+  background-color: #330066 !important;
+}
+.wuy {
+  background-color: #6600cc !important;
+}
+.xvz {
+  background-color: #9933ff !important;
+}
+.yxz {
+  background-color: #cc99ff !important;
+}
+.xwy {
+  background-color: #9966cc !important;
+}
+.wvx {
+  background-color: #663399 !important;
+}
+.xuz {
+  background-color: #9900ff !important;
+}
+.xvy {
+  background-color: #9933cc !important;
+}
+.wux {
+  background-color: #660099 !important;
+}
+.ywz {
+  background-color: #cc66ff !important;
+}
+.xuy {
+  background-color: #9900cc !important;
+}
+.yvz {
+  background-color: #cc33ff !important;
+}
+.yuz {
+  background-color: #cc00ff !important;
+}
+.vuv {
+  background-color: #330033 !important;
+}
+.wuw {
+  background-color: #660066 !important;
+}
+.xux {
+  background-color: #990099 !important;
+}
+.yuy {
+  background-color: #cc00cc !important;
+}
+.zuz {
+  background-color: #ff00ff !important;
+}
+.zvz {
+  background-color: #ff33ff !important;
+}
+.zwz {
+  background-color: #ff66ff !important;
+}
+.zxz {
+  background-color: #ff99ff !important;
+}
+.zyz {
+  background-color: #ffccff !important;
+}
+.yvy {
+  background-color: #cc33cc !important;
+}
+.ywy {
+  background-color: #cc66cc !important;
+}
+.xvx {
+  background-color: #993399 !important;
+}
+.yxy {
+  background-color: #cc99cc !important;
+}
+.wvw {
+  background-color: #663366 !important;
+}
+.xwx {
+  background-color: #996699 !important;
+}
+.zuy {
+  background-color: #ff00cc !important;
+}
+.yux {
+  background-color: #cc0099 !important;
+}
+.zvy {
+  background-color: #ff33cc !important;
+}
+.xuw {
+  background-color: #990066 !important;
+}
+.zwy {
+  background-color: #ff66cc !important;
+}
+.yvx {
+  background-color: #cc3399 !important;
+}
+.zux {
+  background-color: #ff0099 !important;
+}
+.wuv {
+  background-color: #660033 !important;
+}
+.yuw {
+  background-color: #cc0066 !important;
+}
+.zvx {
+  background-color: #ff3399 !important;
+}
+.zxy {
+  background-color: #ff99cc !important;
+}
+.ywx {
+  background-color: #cc6699 !important;
+}
+.xvw {
+  background-color: #993366 !important;
+}
+.zuw {
+  background-color: #ff0066 !important;
+}
+.xuv {
+  background-color: #990033 !important;
+}
+.zwx {
+  background-color: #ff6699 !important;
+}
+.yvw {
+  background-color: #cc3366 !important;
+}
+.yuv {
+  background-color: #cc0033 !important;
+}
+.zvw {
+  background-color: #ff3366 !important;
+}
+.zuv {
+  background-color: #ff0033 !important;
+}

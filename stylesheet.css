@@ -228,7 +228,15 @@ nav :nth-of-type(4):hover {
 nav :nth-of-type(5):hover {
   color: #f0f;
 }
-
+.toggle {
+  position: relative;
+  top: 25px;
+  right: 25px;
+  height: 50px;
+  width: 100px;
+  background-color: #f66;
+  z-index: 2;
+}
 /*!SECTION - Nav*/
 /*!SECTION - Header*/
 /*SECTION - Main*/
@@ -278,7 +286,14 @@ nav :nth-of-type(5):hover {
 
   border-top: 0;
 }
-
+.popover {
+  display: none;
+}
+.popover:popover-open {
+  display: block;
+  width: 50%;
+  height: 50%;
+}
 .label p {
   margin: 0;
   color: #161616;
@@ -330,20 +345,15 @@ section .pwrap {
 #colors {
   padding: 0;
   margin: 0;
-  width: 100%;
   display: flex;
-  height: 100vh;
-  overflow: hidden;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 .section-colors {
   background-color: #000;
-  display: flex;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  color: whitesmoke;
 }
 .colors div span {
   display: flex;
@@ -358,23 +368,23 @@ section .pwrap {
   overflow-x: hidden;
   overflow-y: scroll;
 }
-#colors h1 {
+#colors h2 {
   font-family: "Belanosima", sans-serif;
   font-weight: normal;
-  font-size: 96pt;
-  margin-top: 9rem;
-  margin-bottom: 6rem;
+  font-size: 60pt;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
 }
 .huebox {
   display: flex;
   border: 2px outset rgba(120, 120, 120, 0.25);
-  height: 150px;
+  height: 75px;
   box-sizing: border-box;
   overflow: hidden;
   text-align: center;
-  width: 150px;
-  margin: 10px auto;
+  width: 75px;
+  margin: 5px auto;
   margin-bottom: 2.5px;
   color: white;
   -webkit-border-radius: 2px;
@@ -387,8 +397,8 @@ section .pwrap {
 .frame {
   display: flex;
   flex-direction: column;
-  width: 180px;
-  height: 240px;
+  width: 100px;
+  height: 120px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 25%);
   border: 2px outset rgba(120, 120, 120, 25%);
   -webkit-border-radius: 3px;
@@ -403,10 +413,10 @@ section .pwrap {
   display: flex;
   font-family: "Cabin Condensed", sans-serif;
   font-weight: normal;
-  font-size: 13pt;
+  font-size: 11pt;
   visibility: collapse;
   color: rgba(250, 250, 250, 1%);
-  margin: 5px 15px;
+  margin: 0 auto;
 }
 
 .frame:hover .colordata {
