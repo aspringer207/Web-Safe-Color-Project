@@ -463,7 +463,6 @@ section .pwrap {
   font-size: 24pt;
   padding-left: 5px;
 }
-/*!SECTION - About */
 .pbox {
   box-sizing: border-box;
   border: 2px outset rgba(120, 120, 120, 0.25);
@@ -554,28 +553,7 @@ section .pwrap {
   clip: auto;
   white-space: normal;
 }
+/*!SECTION - About */
 
 /*!SECTION - Main*/
-.red {
-  color: red;
-}
 
-.green {
-  color: lime;
-}
-
-.blue {
-  color: blue;
-}
-
-.cyan {
-  color: cyan;
-}
-
-.magenta {
-  color: magenta;
-}
-
-.yellow {
-  color: yellow;
-}
