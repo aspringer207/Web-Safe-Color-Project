@@ -131,15 +131,34 @@ h1 {
 .pop kbd {
   font-family: "Consolas", "Courier", "Courier New", monospace;
   background-color: rgba(204, 204, 204, 75%);
-  border: 1px solid rgba(51, 51, 51, 50%;);
+  border: 1px solid rgba(51, 51, 51, 50%);
   border-radius: 3px;
 }
 .intro {
   grid-column: span 6;
   font-family: "Cabin Condensed", sans-serif;
   font-size: 2rem;
+  box-sizing:border-box;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
 }
-table {
+.introbutton {
+  display: inline-flexbox;
+  justify-content: space-around;
+  align-content: space-around;
+  box-sizing: border-box;
+  justify-self: flex-end;
+  margin: auto;
+  width: 300px;
+  height: 100px;
+  color: #333;
+  background-color: #fff;
+  font-family: "Belanosima", sans-serif;
+  font-weight: normal;
+  font-size: 30pt;
+}
+.popper table {
   text-align: left;
   padding: 0 10px;
 }
@@ -183,7 +202,7 @@ th {
   width: auto;
   height: auto;
 }
-button {
+.popper button {
   display: inline-flexbox;
   justify-content: space-around;
   align-content: space-around;
@@ -216,9 +235,9 @@ button {
   padding: 0;
   margin: 0;
 }
-table,
-th,
-td {
+.popper table.colordata,
+.popper th,
+.popper td {
   border: 3px solid black;
   display: flex grid;
   border-collapse: collapse;
